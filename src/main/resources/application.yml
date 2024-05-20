@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: items-hexagonal-arch
+  data:
+    mongodb:
+      username: root
+      password: secret
+      database: items-db
+      port: 27017
+      host: mongodb
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: none
