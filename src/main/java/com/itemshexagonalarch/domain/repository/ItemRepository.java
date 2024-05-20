@@ -8,6 +8,6 @@ public interface ItemRepository {
     List<Item> getAllItems();
     Item getItemById(String id);
     void createItem(Item item);
-    void updateItem(Item item);
-    void deleteItem(String id);
+    void updateItem(String id, Item item);
+    void deleteItemById(String id);
 }
